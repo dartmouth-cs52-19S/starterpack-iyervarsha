@@ -1,0 +1,16 @@
+{
+  "name": "Varsha",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "repository": "https://github.com/dartmouth-cs52-19S/starterpack-iyervarsha.git",
+  "author": "Varsha Iyer <varsha.b.iyer@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0",
+    "webpack-dev-server": "^3.3.1"
+  }
+}
