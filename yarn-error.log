@@ -1,0 +1,39 @@
+Arguments: 
+  /usr/local/Cellar/node/11.13.0/bin/node /usr/local/Cellar/yarn/1.15.2/libexec/bin/yarn.js run
+
+PATH: 
+  /Library/Frameworks/Python.framework/Versions/2.7/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+
+Yarn version: 
+  1.15.2
+
+Node version: 
+  11.13.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/varshaiyer/starterpack-iyervarsha/package.json: Unexpected string in JSON at position 228
+      at JSON.parse (<anonymous>)
+      at /usr/local/Cellar/yarn/1.15.2/libexec/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/Cellar/yarn/1.15.2/libexec/lib/cli.js:304:30)
+      at /usr/local/Cellar/yarn/1.15.2/libexec/lib/cli.js:315:13
+
+npm manifest: 
+  {
+    "name": "Varsha",
+    "version": "1.0.0",
+    "main": "src/index.js",
+    "repository": "https://github.com/dartmouth-cs52-19S/starterpack-iyervarsha.git",
+    "author": "Varsha Iyer <varsha.b.iyer@gmail.com>",
+    "license": "MIT"
+    "scripts": { "start": "node src/index.js" }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
