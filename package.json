@@ -7,7 +7,7 @@
     "test": "eslint src/**.js",
     "build": "yarn clean; NODE_ENV=production webpack --colors",
     "clean": "rimraf dist",
-    "deploy": "yarn build; surge -p dist -d varshaiyer-cs52-sa5.surge.sh; yarn clean"
+    "deploy": "yarn build; surge -p dist -d varshaiyer-cs52-sa6.surge.sh; yarn clean"
   },
   "repository": "https://github.com/dartmouth-cs52-19S/starterpack-iyervarsha.git",
   "author": "Varsha Iyer <varsha.b.iyer@gmail.com>",
@@ -42,13 +42,16 @@
   },
   "dependencies": {
     "axios": "^0.18.0",
-    "jquery": "^3.3.1",
     "eslint-loader": "^2.1.2",
     "eslint-plugin-jsx-a11y": "^6.2.1",
+    "jquery": "^3.3.1",
     "lodash.debounce": "^4.0.8",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
+    "react-redux": "^7.0.2",
     "react-router": "^5.0.0",
-    "react-router-dom": "^5.0.0"
+    "react-router-dom": "^5.0.0",
+    "redux": "^4.0.1",
+    "redux-thunk": "^2.3.0"
   }
 }
